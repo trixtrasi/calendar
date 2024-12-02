@@ -1,0 +1,147 @@
+       /*GERAL - ICONES*/
+       /*ver*/
+       .verIcon {
+           content: url("http://10.247.182.140/fenix_v3/public/media/icons/eye.svg");
+           height: 100%;
+           cursor: pointer;
+       }
+
+       /*Três pontinhos*/
+       .threeDotsIcon {
+           content: url("http://10.247.182.140/fenix_v3/public/media/icons/3_dots.svg");
+           height: 100%;
+           cursor: pointer;
+       }
+
+
+       /*HEAD - Ano e controles*/
+       .anos {
+           display: grid;
+           grid-template-columns: repeat(3, 1fr);
+           margin-bottom: .1em;
+           font-size: 1.8em;
+       }
+
+       .ano {
+           justify-self: center;
+           align-self: baseline;
+
+       }
+
+       button.ano {
+           cursor: pointer;
+           background: none !important;
+           border: none;
+       }
+
+       #thisYear {
+           font-size: 1.2em;
+       }
+
+       /*HEAD - meses e dais da semana*/
+       .mesesDoAno {
+           display: grid;
+           grid-template-columns: repeat(12, 1fr);
+           background: linear-gradient(94deg, #5d55b3 0%, #7367F0 65.58%);
+           font-weight: bold;
+           color: #c1c1c1;
+       }
+
+       .meses {
+           padding-block: .4em;
+           margin-inline: 0.4em;
+           cursor: pointer;
+           background: none;
+           border: none;
+       }
+
+       .meses:hover {
+           color: white;
+       }
+
+       .diasDaSemana,
+       .diasDoMes {
+           display: grid;
+           grid-template-columns: repeat(7, 1fr);
+       }
+
+       .diasDaSemana {
+           padding-block: .2em;
+           font-size: 1.6rem;
+           color: rgb(194, 194, 194);
+       }
+
+       #thisMonth {
+           color: white;
+       }
+
+       /*BODY - dias do mês*/
+       .diasDoMes span {
+           margin-left: 0 !important;
+       }
+
+       .diasDoMes {
+           font-size: 3.4em;
+           border-top: 1px solid rgb(194, 194, 194)
+       }
+
+       .nextMonthDays-span {
+           color: rgb(194, 194, 194)
+       }
+
+       #today {
+           color: darkorange;
+       }
+
+       /*BODY - DIA - eventos*/
+       .days {
+           margin: 1px;
+           border: 1px solid transparent;
+           cursor: pointer;
+           color: black;
+       }
+
+       .diasDoMes .days:hover{
+           color: white !important;
+           text-shadow: 1px 1px 2px black !important;
+
+       }
+
+       .days-span {
+           position: relative;
+       }
+
+       .events-badge {
+           margin-top: 1%;
+           margin-right: 1%;
+           position: absolute;
+           font-weight: bold;
+           border-radius: 9%;
+           font-size: 30%;
+           padding: 0px 4px;
+           text-shadow: 1px 1px 2px black;
+           border-radius: 50%;
+           width: 35px;
+           height: 35px;
+
+       }
+
+       .events-badge-orangered {
+           background-color: transparent;
+           color: rgb(255, 110, 43);
+       }
+
+       .meses {
+           padding: 0.4em;
+           margin-inline: 0.4em;
+           cursor: pointer;
+       }
+
+       .meses.active {
+           color: #fff;
+           font-weight: bold;
+       }
+
+       .meses:hover {
+           color: white;
+       }
