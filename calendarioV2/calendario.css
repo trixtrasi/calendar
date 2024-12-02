@@ -1,14 +1,14 @@
        /*GERAL - ICONES*/
        /*ver*/
        .verIcon {
-           content: url("http://10.247.182.140/fenix_v3/public/media/icons/eye.svg");
+           content: url("public/media/icons/eye.svg");
            height: 100%;
            cursor: pointer;
        }
 
        /*Três pontinhos*/
        .threeDotsIcon {
-           content: url("http://10.247.182.140/fenix_v3/public/media/icons/3_dots.svg");
+           content: url("public/media/icons/3_dots.svg");
            height: 100%;
            cursor: pointer;
        }
