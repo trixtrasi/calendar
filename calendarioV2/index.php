@@ -9,14 +9,14 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&amp;display=swap" rel="stylesheet">
-    <link href="http://10.247.182.140/fenix_v3/public/css/style.css" rel="stylesheet">
+    <link href="public/css/style.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
         integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/5.0.9/css/fileinput.min.css" media="all"
         rel="stylesheet" type="text/css" />
     <!-- JS -->
-    <script src="http://10.247.182.140/fenix_v3/public/assets/vendor/ckeditor5/build/ckeditor.js"></script>
+    <script src="public/assets/vendor/ckeditor5/build/ckeditor.js"></script>
 
     <link rel="stylesheet" href="calendario.css">
     <?php
@@ -39,39 +39,39 @@
                 </div>
                 <div id="sidebar">
                     <ul class="list-unstyled components">
-                        <li class="dash"> <a href="http://10.247.182.140/fenix_v3/public/documentos/cadastrar"><img
-                                    src=" http://10.247.182.140/fenix_v3/public/media/icons/plus-circle.svg" />Cadastrar</a>
+                        <li class="dash"> <a href="public/documentos/cadastrar"><img
+                                    src=" public/media/icons/plus-circle.svg" />Cadastrar</a>
                         </li>
 
-                        <li> <a href="http://10.247.182.140/fenix_v3/public" aria-expanded="false"><img
-                                    src="http://10.247.182.140/fenix_v3/public/media/icons/chevron-double-up.svg" />Home</a>
+                        <li> <a href="public" aria-expanded="false"><img
+                                    src="public/media/icons/chevron-double-up.svg" />Home</a>
                         </li>
                         <p class="submenu">Seções</p>
 
 
                         <!--DOCUMENTOS DE INTELIGÊNCIA-->
-                        <a href="http://10.247.182.140/fenix_v3/public/documentos/recebidos">
+                        <a href="public/documentos/recebidos">
                             <li class="documentos"> <img
-                                    src="http://10.247.182.140/fenix_v3/public/media/icons/file-earmark-lock2-fill.svg" />Documentos
+                                    src="public/media/icons/file-earmark-lock2-fill.svg" />Documentos
                             </li>
                         </a>
 
 
                         <!--INTELIGÊNCIA-->
-                        <li> <a href="http://10.247.182.140/fenix_v3/public/inteligencia" class="dropdown-toggle"><img
-                                    src="http://10.247.182.140/fenix_v3/public/media/icons/key-fill.svg" />Inteligência</a>
+                        <li> <a href="public/inteligencia" class="dropdown-toggle"><img
+                                    src="public/media/icons/key-fill.svg" />Inteligência</a>
 
                         </li>
 
                         <!--CONTRAINTELIGÊNCIA-->
-                        <li> <a href="http://10.247.182.140/fenix_v3/public/contrainteligencia"><img
-                                    src="http://10.247.182.140/fenix_v3/public/media/icons/key.svg" />Contrainteligência</a>
+                        <li> <a href="public/contrainteligencia"><img
+                                    src="public/media/icons/key.svg" />Contrainteligência</a>
                         </li>
 
                         <!--ADMINISTRAÇÃO-->
                         <li> <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false"
                                 class="dropdown-toggle"><img
-                                    src="http://10.247.182.140/fenix_v3/public/media/icons/layers-fill.svg" />Administração</a>
+                                    src="public/media/icons/layers-fill.svg" />Administração</a>
 
 
                             <ul class="collapse list-unstyled" id="pageSubmenu2">
@@ -83,7 +83,7 @@
                         <!--ENSINO-->
                         <li><a href="#pageSubmenu5" data-toggle="collapse" aria-expanded="false"
                                 class="dropdown-toggle"><img
-                                    src="http://10.247.182.140/fenix_v3/public/media/icons/book-fill.svg" />Ensino</a>
+                                    src="public/media/icons/book-fill.svg" />Ensino</a>
                             <ul class="collapse list-unstyled" id="pageSubmenu5">
                                 <li><a href="#" target="_blanck">tutorial sinesp</a></li>
                                 <li><a href="#">Meus Cursos</a></li>
@@ -97,22 +97,22 @@
                         <!--TECNOLOGIA DA INFORMAÇÃO-->
                         <li><a href="#pageSubmenu9" data-toggle="collapse" aria-expanded="false"
                                 class="dropdown-toggle"><img
-                                    src="http://10.247.182.140/fenix_v3/public/media/icons/tablet-fill.svg" />T.I</a>
+                                    src="public/media/icons/tablet-fill.svg" />T.I</a>
                             <ul class="collapse list-unstyled" id="pageSubmenu9">
                                 <li><a href="">Abrir chamado</a></li>
                             </ul>
                         </li>
 
                         <!--ASSUNTOS CORRENTES-->
-                        <li> <a href="http://10.247.182.140/fenix_v3/public/racs/geral"><img
-                                    src="http://10.247.182.140/fenix_v3/public/media/icons/chevron-double-up.svg" />Assuntos
+                        <li> <a href="public/racs/geral"><img
+                                    src="public/media/icons/chevron-double-up.svg" />Assuntos
                                 Correntes</a>
                         </li>
 
                         <!--GESTÃO ESTRATÉGICA-->
                         <li> <a href="#pageSubmenu12" data-toggle="collapse" aria-expanded="false"
                                 class="dropdown-toggle"><img
-                                    src="http://10.247.182.140/fenix_v3/public/media/icons/bar-chart.svg" />Gestão
+                                    src="public/media/icons/bar-chart.svg" />Gestão
                                 estratégica</a>
                             <ul class="collapse list-unstyled" id="pageSubmenu12">
                                 <li><a href="#">Dashboard</a> </li>
@@ -123,7 +123,7 @@
                         <p class="submenu">Interface do usuário</p>
                         <li><a href="#pageSubmenu6" data-toggle="collapse" aria-expanded="false"
                                 class="dropdown-toggle"><img
-                                    src="http://10.247.182.140/fenix_v3/public/media/icons/person-fill.svg" />Usuário</a>
+                                    src="public/media/icons/person-fill.svg" />Usuário</a>
                             <ul class="collapse list-unstyled" id="pageSubmenu6">
                                 <li><a href="#">Dados Cadastrais</a> </li>
                                 <li><a href="#">Alteração de Senha</a></li>
@@ -143,15 +143,15 @@
                             <div>.</div>
                         </a>
                     </div>
-                    <img width="25" src="http://10.247.182.140/fenix_v3/public/media/icons/search.svg" />
+                    <img width="25" src="public/media/icons/search.svg" />
                     <div class="flex-grow-1" style="flex-grow: 1!important;"></div>
                     <!-- Authentication -->
-                    <form method="POST" action="http://10.247.182.140/fenix_v3/public/logout">
+                    <form method="POST" action="public/logout">
                         <input type="hidden" name="_token" value="NmsJ2YQlhfMX1AzPWm8tlunf01HO6ACOuRaje6fg"> <a
                             class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
-                            href="http://10.247.182.140/fenix_v3/public/logout" onclick="event.preventDefault();
+                            href="public/logout" onclick="event.preventDefault();
                                                         this.closest('form').submit();"><img width="25"
-                                src="http://10.247.182.140/fenix_v3/public/media/icons/logout.svg" /></a>
+                                src="public/media/icons/logout.svg" /></a>
                     </form>
                     <!-- Authentication -->
                 </div>
@@ -161,13 +161,13 @@
 
                 <div id="MenuDocs" class="col1">
                     <ul>
-                        <a href="http://10.247.182.140/fenix_v3/public/documentos/cadastrar/81">
+                        <a href="public/documentos/cadastrar/81">
                             <li class="cad">Cadastrar Evento</li>
                         </a>
-                        <a href="http://10.247.182.140/fenix_v3/public/inteligencia/eventos">
+                        <a href="public/inteligencia/eventos">
                             <li class="cad">Eventos</li>
                         </a>
-                        <a href="http://10.247.182.140/fenix_v3/public/inteligencia/eventos/calendario">
+                        <a href="public/inteligencia/eventos/calendario">
                             <li class="cad">Calendário</li>
                         </a>
                     </ul>
